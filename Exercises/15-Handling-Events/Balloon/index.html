@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Balloon</title>
+  </head>
+  <body>
+    <div id="balloon" style="font-size:50px">🎈</div>
+    <script>
+      const balloon_node = document.getElementById("balloon");
+
+      const listener = window.addEventListener("keydown", function myListener(
+        event
+      ) {
+        if (event.key === "ArrowDown") {
+          event.preventDefault(); // Prevents the page from scrolling up
+          changeSize(balloon_node, -10);
+        } else if (event.key === "ArrowUp") {
+          event.preventDefault(); // Prevents the page from scrolling down
+          changeSize(balloon_node, 10, myListener);
+        }
+      });
+
+      function changeSize(dom_node, font_multiplier, listener) {
+        // dom_node is the dom element we want to change the fontSize property of
+        // font_multiplier is a multiplier IN PERCENTAGE (according to the exercise definition)
+        const size = dom_node.style.fontSize.slice(0, -2); // Removes the 'px' bit of the string
+
+        // Don't let the balloon go below certain size
+        if (size < 10 && font_multiplier < 0) return;
+
+        if (size > 300) {
+          console.log("Boom!");
+          balloon_node.innerText = `💥`;
+          window.removeEventListener("keydown", listener);
+          return;
+        }
+
+        // Changes the DOM, so this is not a pure function
+        dom_node.style.fontSize = `${size * (1 + font_multiplier / 100)}px`;
+      }
+    </script>
+  </body>
+</html>

@@ -1,3 +1,9 @@
+# MouseTrail
+
+## Task
+
+---
+
 In JavaScript's early days, which was the high time of gaudy home pages with lots of animates images, people came up with some truly inspiring ways to use the language.
 
 One of these was the _mouse trail_ -- a series of elements that would follow the mouse pointer as you moved it across the page.

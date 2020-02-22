@@ -63,9 +63,9 @@
     - Build a Table ❌
     - Elements by Tag Name ❌
     - The Cat's Hat ❌
-15. HANDLING EVENTS
-    - Balloon ✅
-    - Mouse Trail ❌
+15. [_HANDLING EVENTS_](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/15-Handling-Events)
+    - [Balloon](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/15-Handling-Events/Balloon) ✅
+    - [Mouse Trail](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/15-Handling-Events/MouseTrail) ❌
     - Tabs ❌
 16. PROJECT: A PLATFORM GAME
     - Game Over ❌

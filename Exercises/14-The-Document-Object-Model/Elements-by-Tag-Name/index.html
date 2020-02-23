@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Elements by Tag Name</title>
+  </head>
+  <body>
+    <p>
+      And if you go chasing
+      <span class="animal">rabbits</span>
+    </p>
+    <p>And you know you're going to fall</p>
+    <p>
+      Tell 'em a
+      <span class="character"
+        >hookah smoking <span class="animal">caterpillar</span></span
+      >
+    </p>
+    <p>Has given you the call</p>
+    <script>
+      function myOwnGetElementsByTagName(target_node, tag_name) {
+        const children_nodes = [];
+
+        // First check that the element has child nodes
+        if (target_node.hasChildNodes()) {
+          for (const node of target_node.childNodes) {
+            recursiveFunction(node, tag_name, children_nodes);
+          }
+        }
+
+        function recursiveFunction(target_node, tag_name, children_nodes) {
+          if (target_node.nodeName.toLowerCase() === tag_name) {
+            children_nodes.push(target_node);
+          }
+          if (target_node.hasChildNodes()) {
+            for (const node of target_node.childNodes) {
+              recursiveFunction(node, tag_name, children_nodes);
+            }
+          }
+        }
+        return children_nodes;
+      }
+
+      console.log(
+        myOwnGetElementsByTagName(document.querySelectorAll("p")[2], "span")
+      );
+    </script>
+  </body>
+</html>

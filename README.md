@@ -61,7 +61,7 @@
     - **No exercises for this chapter**
 14. THE DOCUMENT OBJECT MODEL
     - Build a Table ❌
-    - Elements by Tag Name ❌
+    - Elements by Tag Name ✅
     - The Cat's Hat ❌
 15. [_HANDLING EVENTS_](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/15-Handling-Events)
     - [Balloon](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/15-Handling-Events/Balloon) ✅

@@ -12,10 +12,10 @@
    - Looping a triangle ❌
    - FizzBuzz ❌
    - Chessboard ❌
-3. FUNCTIONS
-   - Minimum ❌
-   - Recursion ❌
-   - Bean Counting ❌
+3. [_FUNCTIONS_](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/03-Functions)
+   - [Minimum](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/03-Functions/Minimum) ✅
+   - [Recursion](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/03-Functions/Recursion) ✅
+   - [Bean Counting](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/03-Functions/Bean-Counting) ✅
 4. DATA STRUCTURES: OBJECTS AND ARRAYS
    - The Sum of a Range ❌
    - Reversing an Array ❌

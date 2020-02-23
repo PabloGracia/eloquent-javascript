@@ -59,9 +59,9 @@
 
 13. JAVASCRIPT AND THE BROWSER
     - **No exercises for this chapter**
-14. THE DOCUMENT OBJECT MODEL
-    - Build a Table ❌
-    - Elements by Tag Name ✅
+14. [_THE DOCUMENT OBJECT MODEL_](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/14-The-Document-Object-Model)
+    - [Build a Table](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/14-The-Document-Object-Model/Build-a-Table) ❌
+    - [Elements by Tag Name](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/14-The-Document-Object-Model/Elements-by-Tag-Name) ✅
     - The Cat's Hat ❌
 15. [_HANDLING EVENTS_](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/15-Handling-Events)
     - [Balloon](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/15-Handling-Events/Balloon) ✅

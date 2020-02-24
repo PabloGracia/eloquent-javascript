@@ -16,11 +16,11 @@
    - [Minimum](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/03-Functions/Minimum) ✅
    - [Recursion](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/03-Functions/Recursion) ✅
    - [Bean Counting](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/03-Functions/Bean-Counting) ✅
-4. DATA STRUCTURES: OBJECTS AND ARRAYS
-   - The Sum of a Range ❌
-   - Reversing an Array ❌
-   - A List ❌
-   - Deep Comparison ❌
+4. [_DATA STRUCTURES: OBJECTS AND ARRAYS_](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/04-Data-Structures-Objects-and-Arrays)
+   - [The Sum of a Range](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/04-Data-Structures-Objects-and-Arrays/The-Sum-of-a-Range) ✅
+   - [Reversing an Array](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/04-Data-Structures-Objects-and-Arrays/Reversing-an-Array) ✅
+   - [A List](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/04-Data-Structures-Objects-and-Arrays/A-List) ❌
+   - [Deep Comparison](https://github.com/PabloGracia/eloquent-javascript/tree/master/Exercises/04-Data-Structures-Objects-and-Arrays/Deep-Comparison) ✅
 5. HIGHER-ORDER FUNCTIONS
    - Flattening ❌
    - Your Own Loop ❌
